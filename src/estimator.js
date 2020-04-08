@@ -16,8 +16,8 @@ const covid19ImpactEstimator = (data) => {
     );
     return estimator({
         data,   //input data gotten
-        impact: {},  //best case estimation
-        severeImpact: {}  //severe case estimation
+        impact: {}, //best case estimation
+        severeImpact: {}    //severe case estimation
     });
 };
 
