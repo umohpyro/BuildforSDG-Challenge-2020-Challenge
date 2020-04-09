@@ -1,5 +1,5 @@
-const estimateSevereCases = Math.trunc(0.15*CurrentlyInfected);
-const estimateBedSpaceAvailability = Math.trunc((0.35*data.totalHostpitalBeds)-estimateSevereCases);
+const estimateSevereCases = Math.trunc(0.15 * CurrentlyInfected);
+const estimateBedSpaceAvailability = Math.trunc((0.35 * data.totalHostpitalBeds) - estimateSevereCases);
 
 const covid19ImpactEstimator = (data) => {
     const estimator = chain(
